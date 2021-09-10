@@ -1,4 +1,4 @@
-package URI.URI1002;
+package URI.URI1005;
 
 import java.io.IOException;
 import java.util.Locale;
@@ -8,18 +8,17 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 
-		System.out.println("Área do Círculo");
-
 		Locale.setDefault(Locale.US);
 		Scanner input = new Scanner(System.in);
+		double A = input.nextDouble();
+		double B = input.nextDouble();
 
-		double pi = 3.14159;
-		double raio = input.nextDouble();
-		double area = pi * Math.pow(raio, 2);
+		double MEDIA = ((A * 3.5) + (B * 7.5)) / 11.0;
 
-		System.out.printf("A=%.4f%n", area);
+		System.out.printf("MEDIA = %.5f%n", MEDIA);
 
 		input.close();
 
 	}
+
 }

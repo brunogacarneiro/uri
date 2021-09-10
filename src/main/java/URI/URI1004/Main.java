@@ -5,24 +5,19 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException {
 
-        /**
-         * Escreva a sua solução aqui
-         * Code your solution here
-         * Escriba su solución aquí
-         */
+		System.out.println("Produto Simples");
+		Scanner input = new Scanner(System.in);
 
-        Scanner input = new Scanner(System.in);
+		int A = input.nextInt();
+		int B = input.nextInt();
 
-        int A = input.nextInt();
-        int B = input.nextInt();
+		int PROD = A * B;
 
-        int PROD = A * B;
+		System.out.println("PROD = " + PROD);
 
-        System.out.println("PROD = " + PROD);
+		input.close();
 
-        input.close();
-
-    }
+	}
 }

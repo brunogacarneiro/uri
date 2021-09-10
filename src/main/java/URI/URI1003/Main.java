@@ -5,17 +5,18 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException {
 
-        Scanner input = new Scanner(System.in);
-        int A = input.nextInt();
-        int B = input.nextInt();
+		System.out.println("Soma Simples");
+		Scanner input = new Scanner(System.in);
+		int A = input.nextInt();
+		int B = input.nextInt();
 
-        int SOMA = A + B;
+		int SOMA = A + B;
 
-        System.out.println("SOMA = " + SOMA);
+		System.out.println("SOMA = " + SOMA);
 
-        input.close();
+		input.close();
 
-    }
+	}
 }
