@@ -20,6 +20,8 @@ public class Main {
 		double salarioFinal = salarioFixo + commisao;
 
 		System.out.printf("TOTAL = R$ %.2f%n", salarioFinal);
+		
+		input.close();
 
 	}
 
